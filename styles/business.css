@@ -1,0 +1,236 @@
+main {
+    height: calc(100vh - 4rem);
+}
+
+/* General styles for the Business section */
+.business {
+    max-width: calc(100% - 8rem);
+    margin: 0 auto;
+    padding: 3rem;
+    padding-top: 6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2.5rem;
+}
+
+.business .title h2 {
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+.business .description {
+    max-width: 800px;
+    margin-inline: auto;
+    font-size: 1.2rem;
+    font-weight: 300;
+    text-align: center;
+}
+
+/* Shared styles for Accounting, Incorporation, Payroll, and Consulting */
+.personal, .business {
+    max-width: calc(100% - 8rem);
+    margin: 0 auto;
+    padding: 3rem;
+    padding-top: 6rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2.5rem;
+}
+
+.personal .content, .business .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1rem;
+    max-width: 500px;
+    margin-top: .5rem;
+    margin-inline: auto;
+}
+
+.personal .content h3, .business .content h3 {
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.personal .content ul, .business .content ul {
+    list-style-type: none;
+    padding: 0;
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+.personal .content ul li, .business .content ul li {
+    margin-bottom: 1rem;
+}
+
+.personal .image, .business .image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 500px;
+    margin-top: .5rem;
+    margin-inline: auto;
+}
+
+.personal .image img, .business .image img {
+    width: 100%;
+}
+
+/* Section-specific styles */
+
+/* Business Incorporation */
+.personal-options {
+    max-width: calc(100% - 8rem);
+    margin: 0 auto;
+    padding: 3rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2.5rem;
+}
+
+.personal-options .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1rem;
+    max-width: 500px;
+    margin-top: .5rem;
+    margin-inline: auto;
+}
+
+.personal-options .content h3 {
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.personal-options .content ul {
+    list-style-type: none;
+    padding: 0;
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+.personal-options .content ul li {
+    margin-bottom: 1rem;
+}
+
+.personal-options .image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 500px;
+    margin-top: .5rem;
+    margin-inline: auto;
+}
+
+.personal-options .image img {
+    width: 100%;
+}
+
+/* Payroll Solutions */
+.business-options {
+    max-width: calc(100% - 8rem);
+    margin: 0 auto;
+    padding: 3rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2.5rem;
+}
+
+.business-options .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1rem;
+    max-width: 500px;
+    margin-top: .5rem;
+    margin-inline: auto;
+}
+
+.business-options .content h3 {
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.business-options .content ul {
+    list-style-type: none;
+    padding: 0;
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+.business-options .content ul li {
+    margin-bottom: 1rem;
+}
+
+.business-options .image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 500px;
+    margin-top: .5rem;
+    margin-inline: auto;
+}
+
+.business-options .image img {
+    width: 100%;
+}
+
+/* Business Consulting */
+.consulting {
+    max-width: calc(100% - 8rem);
+    margin: 0 auto;
+    padding: 3rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2.5rem;
+}
+
+.consulting .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1rem;
+    max-width: 500px;
+    margin-top: .5rem;
+    margin-inline: auto;
+}
+
+.consulting .content h3 {
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.consulting .content ul {
+    list-style-type: none;
+    padding: 0;
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+.consulting .content ul li {
+    margin-bottom: 1rem;
+}
+
+.consulting .image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 500px;
+    margin-top: .5rem;
+    margin-inline: auto;
+}
+
+.consulting .image img {
+    width: 100%;
+}
+
+/* Bold Text */
+.bold {
+    font-weight: 600;
+}

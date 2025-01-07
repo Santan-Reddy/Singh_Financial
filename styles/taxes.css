@@ -1,0 +1,229 @@
+main{
+    height: calc(100vh - 4rem);
+}
+
+.taxes{
+    max-width: calc(100% - 8rem);    
+    margin: 0 auto;
+    padding: 3rem;
+    padding-top: 6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2.5rem;
+}
+
+.taxes .title h2{
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+.taxes .description{
+    text-align: center;
+    max-width: 800px;
+    margin-inline: auto;
+}
+
+.personal{
+    max-width: calc(100% - 8rem);    
+    margin: 0 auto;
+    padding: 3rem;
+    padding-top: 6rem;
+    display: flex;
+    gap: 2.5rem;
+}
+
+.personal .content{
+    display: flex;
+    flex-direction: column;    
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1rem;
+    max-width: 500px;
+    margin-top: .5rem;
+    margin-inline: auto;
+}
+
+.personal .content h3{
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.personal .content p{
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+.personal .image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    max-width: 500px;
+    margin-top: .5rem;
+    margin-inline: auto;
+}
+
+.personal .image img{
+    width: 100%;
+}
+
+.personal-options{
+    max-width: calc(100% - 8rem);    
+    margin: 0 auto;
+    padding: 3rem;
+    padding-top: 6rem;
+    display: flex;
+    gap: 2.5rem;
+}
+
+.personal-options .content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1rem;
+    max-width: 500px;
+    margin-top: .5rem;
+    margin-inline: auto;
+}
+
+.personal-options .content h3{
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.personal-options .content p{
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+.personal-options .image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    max-width: 500px;
+    margin-top: .5rem;
+    margin-inline: auto;
+}
+
+.personal-options .image img{
+    width: 100%;
+}
+
+.personal-options .option{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1rem;
+    max-width: 500px;
+    margin-top: .5rem;
+    margin-inline: auto;
+}
+
+.personal-options .option h4{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.personal-options .option p{
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+.bold{
+
+    font-weight: 600;
+}
+
+.business{
+    max-width: calc(100% - 8rem);
+    margin: 0 auto;
+    padding: 3rem;
+    padding-top: 6rem;
+    display: flex;
+    gap: 2.5rem;
+}
+
+.business .content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1rem;
+    max-width: 500px;
+    margin-top: .5rem;
+    margin-inline: auto;
+}
+
+.business .content h3{
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.business .content p{
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+.business .image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    max-width: 500px;
+    margin-top: .5rem;    
+    margin-inline: auto;
+}            
+
+.business .image img{    
+    width: 100%;
+}        
+
+.business-options{    
+    max-width: calc(100% - 8rem);    
+    margin: 0 auto;
+    padding: 3rem;
+    padding-top: 6rem;
+    display: flex;
+    gap: 2.5rem;
+}            
+
+.business-options .content{    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1rem;
+    max-width: 500px;
+    margin-top: .5rem;
+    margin-inline: auto;
+}            
+
+.business-options .content h3{    
+    font-size: 2rem;
+    font-weight: 500;
+}            
+
+.business-options .content p{    
+    font-size: 1.2rem;
+    font-weight: 300;
+}            
+
+.business-options .image{        
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    max-width: 500px;
+    margin-top: .5rem;    
+    margin-inline: auto;
+}            
+
+.business-options .image img{        
+    width: 100%;
+}   
+
