@@ -78,3 +78,29 @@ main{
 .service.img-right {
     flex-direction: row-reverse;
 }
+
+
+@media screen and (max-width: 768px) {
+    .payroll{
+        max-width: 100%;
+        padding: 1rem;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+    .payroll .title h2{
+        font-size: 2rem;
+    }
+    .payroll .description p{
+        font-weight: 300;
+    }
+    .service{
+        max-width: 100%;
+        padding: 2rem;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+}
+
+img{
+    border-radius: 8px;
+}

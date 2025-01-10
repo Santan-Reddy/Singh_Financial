@@ -55,8 +55,10 @@ main{
 
 @media (max-width: 768px) {
     .hero{
-        padding-left:0 ;
-        padding-right: 0;
+        max-width: 100%;
+        padding: 2rem;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
     }
     .hero-image img{
         width: 100%;
@@ -160,12 +162,56 @@ main{
 }
 
 .aboutUs .description{
+    display: flex;    
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-top: 3rem;
+    margin-inline: auto;
+}
+.aboutUs .description .points{
+    max-width: 700px;
+}
+.aboutUs .description .points p{
+    font-size: 1.2rem;
+    font-weight: 300;
+    margin-top: 1rem;
+    /* text-align: justify;     */
+}
+
+.aboutUs .description .statements{
     display: flex;
     flex-direction: column;
-    align-items: center;
     gap: 1rem;
-    margin-top: 4rem;
-    text-align: center;
-    max-width: 800px;
+
+}
+
+.aboutUs .description .statements .statement{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    border-radius: 8px;
+    background-color: rgb(9, 52, 105, 0.1);
+    gap: 1rem;
+    max-width: 500px;
+    margin-top: .5rem;
     margin-inline: auto;
+}
+
+.aboutUs .description .statements .statement h5{
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.aboutUs .description .statements .statement p{
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+@media (max-width: 768px) {
+    .aboutUs{
+        max-width: 100%;
+        padding: 2rem;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
 }

@@ -12,6 +12,7 @@ footer{
     gap: 2.5rem;
     color: #f7f7f7;
     width: 100%;
+    margin-top: 3rem;
 }
 
 .footer p, .footer h3{
@@ -78,4 +79,14 @@ footer{
     gap: 1rem;
     align-items: center;
     cursor: pointer;
+}
+
+
+@media (max-width: 768px) {
+    .footer{
+        grid-template-columns: 1fr;
+        max-width: 100%;
+        padding: 1rem;
+        padding-top: 3rem;
+    }
 }

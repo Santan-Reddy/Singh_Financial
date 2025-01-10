@@ -132,3 +132,38 @@ main {
 .bold {
     font-weight: 600;
 }
+
+
+@media screen and (max-width: 768px) {
+    .immigration{
+        max-width: 100%;
+        padding: 1rem;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+    .immigration .title h2{
+        font-size: 2rem;
+        
+    }
+    .immigration .description p{
+        font-weight: 300;
+    }
+    .personal, .business {
+        flex-direction: column;
+        max-width: 100%;
+        padding: 2rem;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+    .personal-options, .business-options {
+        flex-direction: column-reverse;
+        max-width: 100%;
+        padding: 2rem;        
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+}
+
+img{
+    border-radius: 8px;
+}

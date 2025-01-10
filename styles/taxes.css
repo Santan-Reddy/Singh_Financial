@@ -227,3 +227,50 @@ main{
     width: 100%;
 }   
 
+
+@media screen and (max-width: 768px) {
+    .taxes{
+        max-width: 100%;
+        padding: 1rem;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+    .taxes .title h2{
+        font-size: 2rem;
+    }
+    .taxes .description p{
+        font-weight: 300;
+    }
+    .personal{
+        flex-direction: column-reverse;
+        max-width: 100%;
+        padding: 2rem;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+    .business{
+        flex-direction: column-reverse;
+        max-width: 100%;
+        padding: 2rem;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+    .personal-options{
+        flex-direction: column;
+        max-width: 100%;
+        padding: 2rem;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+    .business-options{
+        flex-direction: column;
+        max-width: 100%;
+        padding: 2rem;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+}
+
+img{
+    border-radius: 8px;
+}

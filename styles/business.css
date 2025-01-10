@@ -22,7 +22,7 @@ main {
 .business .description {
     max-width: 800px;
     margin-inline: auto;
-    font-size: 1.2rem;
+    /* font-size: 1.2rem; */
     font-weight: 300;
     text-align: center;
 }
@@ -233,4 +233,36 @@ main {
 /* Bold Text */
 .bold {
     font-weight: 600;
+}
+
+
+@media screen and (max-width: 768px) {
+    .business{
+        max-width: 100%;
+        padding: 1rem;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+    .business .title h2{
+        font-size: 2rem;
+    }
+    .business .description p{
+        font-weight: 300;
+    }
+     .personal, .personal-options, .business-options, .consulting {
+        max-width: 100%;
+        padding: 2rem;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+    .personal-options, .business-options, .consulting {
+        flex-direction: column;
+    }
+    .personal,.consulting{
+        flex-direction: column-reverse;
+    }
+}
+
+img{
+    border-radius: 8px;
 }
